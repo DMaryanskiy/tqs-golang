@@ -17,6 +17,7 @@ To run project you need:
 
 1. Setup `.env` files in `cmd` directories of each services.
 
+consumer/cmd/.env
 ```/consumer/cmd/.env
 RABBITMQ_URL=amqp://user:pass@rabbitmq:port/
 
@@ -26,6 +27,7 @@ EMAIL_USER=<email from message will be sent>
 EMAIL_PASS=<pass to email OR app pass like in gmail>
 ```
 
+/server/cmd/.env
 ```/server/cmd/.env
 RABBITMQ_URL=amqp://user:pass@rabbitmq:port/
 ```
